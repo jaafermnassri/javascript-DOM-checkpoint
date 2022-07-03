@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Go my code checkpoint</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://img.icons8.com/external-obivous-color-kerismaker/344/external-e-learning-online-learning-color-obivous-color-kerismaker-15.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/fce4541461.js" crossorigin="anonymous"></script>
 </head>
@@ -20,8 +24,8 @@
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a>
-                <ul>
+            <li class="drpdwn"><a  href="#">Contact</a>
+                <ul class="drp">
                     <li><a href="#">facebook</a></li>
                     <li><a href="#">twitter</a></li>
                     <li><a href="#">youtube</a></li>
@@ -42,26 +46,30 @@
    <!-- the main page is here  -->
 <main>
     <!-- home page  -->
-  <section>
-    <div>
-        <h1>this is the home page</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus autem sed soluta aspernatur sit amet, consectetur adipisicing elit</p>
+  <section class="hom">
+    
+    <div class="profpic">
+        <img src="./image/01c751482ef7c4f5e93f3539efd27f6f.jpg" alt="avatar">
     </div>
+    <div class="homtext">
+        <h1>this is the home page</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nostrum provident culpa, numquam iure corporis velit hic illo tenetur similique saepe aliquam sint voluptates quisquam odio quaerat rerum, facere in.</p>
+    
     <div>
-        <button>
+        <button class="hombtn">
             Explore
         </button>
     </div>
-    <div>
-        <img src="./image/01c751482ef7c4f5e93f3539efd27f6f.jpg" alt="avatar">
     </div>
   </section>
 <!-- the resume page  -->
-    <section>
+    <section class="resume">
      <h1>Resume</h1>
      <hr>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus laudantium soluta sit perspiciatis, vitae quod ad cumque deserunt!</p>
-     <p>click <a href="https://drive.google.com/file/d/19n_TiSFzJqIJ9jYjvFW6D686AWCsvFex/view?usp=sharing">HERE</a> to download my full resume</p>
+      <div class="resume">
+       <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus laudantium soluta sit perspiciatis, vitae quod ad cumque deserunt!</p>
+       <p id="pop">click <a href="https://drive.google.com/file/d/19n_TiSFzJqIJ9jYjvFW6D686AWCsvFex/view?usp=sharing">HERE</a> to download my full resume</p>
+      </div>
     </section>
 <!-- the work section -->
 <section>
@@ -69,7 +77,7 @@
     <hr>
     <iframe width="360" height="200" src="https://www.youtube.com/embed/jzHGHmgcOw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <h3>Services Prices</h3>
-    <table>
+    <table class="tablo">
         <tr>
             <th>Service</th>
             <th>Price</th>
