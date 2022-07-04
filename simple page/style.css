@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500&family=Rakkas&family=Roboto:wght@300&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
 }
 .drp {
     display: none;
@@ -40,8 +43,10 @@ header {
     /* display: flex; */
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 700px;
+    /* justify-content: center; */
+    width: 450px;
+    justify-content: space-evenly;
+    font-size: 25px;
 }
 ul {
     list-style-type: none;
@@ -90,3 +95,41 @@ li a {
 #pop a:hover {
     color:red;
 }
+.hombtn {
+    display: inline-block;
+    border-radius: 25px;
+    background-color: #707d87;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.hombtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .hombtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .hombtn:hover span {
+    padding-right: 25px;
+  }
+  
+  .hombtn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
