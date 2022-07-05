@@ -64,7 +64,7 @@
   </section>
 <!-- the resume page  -->
     <section class="resume">
-     <h1>Resume</h1>
+     <h1>RESUME</h1>
      <hr>
       <div class="resume">
        <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus laudantium soluta sit perspiciatis, vitae quod ad cumque deserunt!</p>
@@ -72,10 +72,12 @@
       </div>
     </section>
 <!-- the work section -->
-<section>
-    <h1>Works</h1>
+<section class="work">
+    <h1>WORKS</h1>
     <hr>
-    <iframe width="360" height="200" src="https://www.youtube.com/embed/jzHGHmgcOw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="contwrk">
+    <iframe width="600" height="320" src="https://www.youtube.com/embed/jzHGHmgcOw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="tab">
     <h3>Services Prices</h3>
     <table class="tablo">
         <tr>
@@ -99,30 +101,42 @@
             <td>25$</td>
         </tr>
     </table>
+</div>
+</div>
 
 </section>
 <!-- the about section  -->
-<section>
-    <h1>About</h1>
+<section class="about">
+    <div class="titro">
+    <h1>ABOUT</h1>
+    </div>
     <hr>
+    <div class="klem">
     <p>I am 29 years old with master degree in embedded system and I seek to learn the web developement to enter IT field which I like and to achieve my goals</p>
+    </div>
 </section>
 <!-- the contact section  -->
-<section>
-    <div>
-        <h2>Contact Me</h2>
+<section class="contact">
+        
+        <h2>CONTACT ME</h2>
+        
         <hr>
-    
-        <div>
-          <p> Gafsa , Tunisia</p>
-          <p> Phone: 24 441 553</p>
-          <p> Email: mnassrijaafer0@gmail.com</p>
+    <div class="contactinfo">
+        <div class="info">
+          <p> First Name, Last Name: Jaafer Mnassri</p>
+          <p> Phone Number:  24 441 553</p>
+          <p> Email Address:  mnassrijaafer0@gmail.com</p>
+          <p>Location: Gafsa, Tunisia</p>
+          <p>Professional Title: Graphic Designer & Fullstack Dev</p>
+          <p>LinkedIn URL: linkedin.com/jaafer-mnassri/</p>
         </div>
         
         <!-- frame of location/map -->
-        
+        <div class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d205.70400907188082!2d8.791836!3d34.420045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f8965621eac063%3A0x9ac5ec88270035d!2sPlace%20Pasteur!5e0!3m2!1sen!2sus!4v1656786483202!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-       
+        </div>
+    </div>    
+        <div class="msg">
         <p>Lets get in touch. Send me a message:</p>
         <form>
             <label for="">Name</label>
@@ -134,23 +148,26 @@
           <label for="">Message</label>
           <textarea name="message" placeholder="Confess your feelings here!" id="" cols="30" rows="10"></textarea>
           <!-- <input type="text" placeholder="Message" required name="Message"> -->
-          <p>
-            <button type="submit">
-              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          <p class="botn">
+            <button class="sndbtn" type="submit">
+                <span><i class="fa fa-paper-plane"></i> SEND MESSAGE</span>
             </button>
           </p>
         </form>
+        </div>
 </section>
 </main>
 
 <!-- this is the footer -->
 <footer>
+    <div class="footericons">
     <i class="fa fa-facebook-official "></i>
     <i class="fa fa-instagram "></i>
     <i class="fa fa-snapchat "></i>
     <i class="fa fa-pinterest-p "></i>
     <i class="fa fa-twitter "></i>
     <i class="fa fa-linkedin "></i>
+    </div>
 </footer>
 </body>
 </html>
