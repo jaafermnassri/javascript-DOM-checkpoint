@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500&family=Rakkas&family=Roboto:wght@300&family=Ubuntu&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 100%;
+
+}
+
+/* the header part  */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* align-items: center; */
+    margin-top: 0;
+    margin-bottom: 35px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    /* align-items: center; */
+}
+header .logo img {
+    width: 300px;
+}
+ul {
+    font-weight: 400;
+}
+.drpdwn a {
+    color: #04bca4;
+}
+nav li {
+    padding: 10px 10px;
+    display: inline-block;
+    list-style: none;
+    } 
+    .drp {
+        display: none;
+        position: absolute;
+        /* padding: 0px 0px 0px 0px; */
+        /* border-radius: 0 0 30px 30px; */
+          }
+          
+        .drpdwn:hover  .drp {
+            display: flex;
+            flex-direction: column;
+        
+            background-color: #fff;
+            box-shadow: 0px 7px 10px 0px #888888;
+        }
+nav li a {
+    text-decoration: none;
+    color: #ababaa;
+}
+nav li a:hover {
+    color: #04bca4;
+}
+.drp a {
+    color: #ababaa;
+    margin-left: 0;
+
+    padding: 12px 16px;
+    
+}
+.drp li {
+   margin-left:0;
+   margin-right: 0;
+   padding-left: 0;
+}
+.drp {
+    padding-left: 0;
+}
+.drp li:hover {
+    background-color: #ececec;
+}
+
+/* the main part  */
+
+/* page 1 */
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+}
+.logohome {
+    margin: 80px auto;
+}
+.title h1 {
+    word-spacing: 5px;
+    font-size: 35px;
+    font-weight :lighter;
+    margin-bottom: 70px;
+    color:#04bca4;
+}
+.introducions {
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    font-weight: 100;
+    align-items: center;
+    height: 150px;
+    margin-bottom: 100px;
+}
+.introducions .po {
+    margin: 0 20px;
+    line-height: 25pt;
+    
+}
+.introducions .pt {
+    margin: 0 20px;
+    line-height: 25pt;
+}
+
+/* the cards design  */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.patients {
+    margin: 10px 40px;
+    padding: 30px 30px;
+    background-color: #04bca4;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 290px;
+    
+}
+.doctors {
+    margin: 10px 40px;
+    padding: 30px 30px;
+    background-color: #3d83df;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 290px;
+}
+.clinics {
+    margin: 10px 40px;
+    padding: 30px 30px;
+    background-color: #1b2734;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 290px;
+}
+.cards .patients .doctors .clinics {
+    height: 370px;
+}
+.cards i {
+    font-size: 25px;
+       /* color: #ffffff; */
+}
+.cards h2 {
+    margin-top: 30px;
+}
+.cards p {
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: lighter;
+}
+.cards select {
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    text-decoration: underline;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.cards select option {
+    color: #000;
+}
+.companies {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 93%;
+    line-height: 4;
+}
+.talk {
+    margin-left: 0;
+
+}
+.sponsors {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+    list-style: none;
+    width: 67%;
+}
+.spnsrone {
+    width: 200px;
+    height: 60px;
+}
+.spnsrone a:hover {
+    color: #04bca4;
+}
+.spnsrtwo a:hover {
+    color: #04bca4;
+}
+.sponsors img {
+    padding-right: 20px;
+    
+}
+.talk h2 {
+    
+    word-spacing: 5px;
+    font-size: 25px;
+    font-weight: lighter;
+    margin: auto 0;
+    color: #04bca4;
+    width: 250px;
+    line-height: 1.7;
+}
+.companies .talks {
+    align-self: center;
+}
+
+/* the second page  */
+
+.secondpage {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 0;
+    margin-right: 0;
+    background-image:url(https://i.ibb.co/5vZL2tZ/background-2.jpg);
+    width: 100%; 
+    height: 600px;
+}
+.inbox {
+    display: flex;
+    
+    margin:0 auto;
+}
+.about h2 {
+    word-spacing: 5px;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-top:3rem;
+    color: #04bca4;
+    width: 450px;
+    line-height: 1.2;
+
+}
+.about p {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    color: gray;
+}
+.about  {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-content: flex-start; */
+    align-items: flex-end;
+    height: 400px;
+    width: 400px;
+    margin-right: 0;
+}
+.infos {
+    display: grid;
+grid-template-columns: 1fr 1fr;
+width: 600px;
+}
+
+.infos i {
+    font-size: 35px;
+    margin-top: 5px;
+       /* color: #ffffff; */
+}
+.infos h2 {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 100;
+}
+.infos p {
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: lighter;
+color: #000;
+line-height: 16.3px;
+}
+
+
+.infoone {
+    margin-top: 57px;
+    margin-left: 150px;
+    background: #fff;
+    border-radius: 5px;
+    color: #04bca4;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    
+    font-weight: 300;
+    width: 208px;
+}
+.infoone p {
+    margin-top: -2px;
+    
+}
+.infoone h2 {
+    
+    
+}
+.infotwo {
+    margin-top: 35px;
+    background: #fff;
+    border-radius: 5px;
+    color: #04bca4;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 230px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+    width: 208px;
+}
+.infothree {
+    margin-top: -30px;
+    margin-left: 150px;
+    background: #fff;
+    border-radius: 5px;
+    color: #04bca4;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 230px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+    width: 208px;
+}
+.infofour {
+    margin-top:-71px;
+    background: #fff;
+    border-radius: 5px;
+    color: #04bca4;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 230px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+    width: 208px;
+}
+.thirdpage {
+    display: flex;
+    flex-direction: column;
+}
+.thirdpage .improve {
+    margin-top: 80px;
+    text-align: center;
+}
+.improve h3 {
+    word-spacing: 5px;
+    font-size: 35px;
+    font-weight :100;
+    margin-bottom: 20px;
+    color:#04bca4;
+}
+.improve p {
+    width: 680px;
+    margin-bottom: 30px;
+}
+.places {
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-content: flex-start; 
+width: 53%;
+height: 1100px;
+}
+.tagg {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tagg h3 {
+    margin-top: 7px;
+    margin-left: 9px;
+    font-size: 20px;
+    
+}
+.tagg button {
+    margin-right: 5px;
+    font-size: 0.8rem;
+}
+.tagg a {
+    color: #fff;
+    text-decoration: none;
+}
+.kk {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    
+}
+.kk:hover {
+    box-shadow: 0px 15px 10px 0px #888888;
+    transition: 0.3s;
+}
+.interesting {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+.interesting p {
+    font-size: 30px;
+}
+.interesting button {
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+/* hr {
+    margin-top: 70px;
+} */
+footer {
+    margin-top: 80px;
+}
+footer p {
+    text-align: center;
+    color: #ababaa;
+    font-size: 14px;
+}
