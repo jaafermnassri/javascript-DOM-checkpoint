@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fce4541461.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+the header of the page  -->
+
+    <header>
+        <div class="return">
+            <i class="fa-solid fa-angles-left"></i>
+            <h3>return to shop</h3>
+        </div>
+        <div class="title">
+            <h1>Go My Code Shop</h1>
+        </div>
+        <div class="chariot">
+            <input type="number" name="items" id="items">
+            <i class="fa-solid fa-basket-shopping"></i>
+        </div>
+    </header>
+
+
+<!-- the main page  -->
+
+    <main>
+        <div class="itemone" id="itmone">
+            <div class="itempic">
+                <div class="pic">
+                <img src="./images/601e00892f6d4b00b862ab390123d985_9366.webp" alt="hoodie"> </div>
+                <div class="infos">
+                <h2>LEGEND WINTER HOODIE</h2>
+                <p>Pull on this adidas basketball hoodie and get ready for action. Made to absorb moisture, it keeps you dry whether you're dialing in your jumper at the gym or breaking down your defender on an outdoor court.</p>
+                      <div class="like" >
+                            <i onclick="functlike()" id="likeone" class="fa-solid fa-heart"></i> <h6> Like the product ?</h6>
+                      </div>
+                </div>
+            </div>
+            <div class="buy">
+                <i class="fa-solid fa-trash-can" onclick="remove()"></i>
+                <div class="quant">
+                   <button class="sus" onclick="minus()" id="minus">-</button>
+                   <input type="number" name="qt" id="qty" value="1" readonly />
+                   <button class="add" onclick="plus()" id="plus">+</button>
+                      <div class="prix"><input class="price" type="number" name="price" id="priceone" value="59">$</div>
+                </div>
+                
+            </div>
+        </div>
+
+        <section class="itemtwo" id="itmtwo">
+            <div class="itempic">
+                <div class="pic">
+                <img src="./images/shoes.webp" alt="shoe"></div>
+                <div class="infos">
+                <h2>EQ21 RUN SHOES</h2>
+                <p>When running is your sport, there's nothing you love more than that daily run. Log miles in ultimate comfort when you lace up in these adidas shoes.</p>
+                       <div class="like" >
+                            <i class="fa-solid fa-heart" onclick="functlikee()" id="liketwo"></i> <h6> Like the product ?</h6>
+                       </div>
+                </div>
+            </div>
+            <div class="buy">
+                <i class="fa-solid fa-trash-can" onclick="removee()"></i>
+                <div class="quant">
+                    <button class="sus" onclick="minustwo()" id="minustwo">-</button>
+                    <input type="number" name="qtt" value="1" id="qtytwo">
+                    <button class="add" onclick="plustwo()" id="plustwo">+</button>
+                       <div class="prix"><input class="price" type="number" name="pricetwo" id="pricetwo" value="39">$</div>
+                </div>
+                
+            </div>
+        </section>
+
+        <div class="total">
+            <div class="adde">
+               <button class="add" onclick="total()">ALL COSTS</button>
+            </div>
+            <div class="msg">
+              <h3> Your TOTAL is : </h3>
+              <input type="number" class="price" name="" id="tot" on value=" ">
+              <h3>$</h3>
+           </div>
+        </div>
+
+
+    </main>
+
+
+<script src="./main.js"></script>
+</body>
+</html>
